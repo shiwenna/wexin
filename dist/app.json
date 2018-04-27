@@ -1,0 +1,78 @@
+{
+  "pages": [
+    "example/index",
+
+    "example/button/button",
+    "example/list/list",
+    "example/input/input",
+    "example/slider/slider",
+    "example/uploader/uploader",
+
+    "example/article/article",
+    "example/badge/badge",
+    "example/flex/flex",
+    "example/footer/footer",
+    "example/gallery/gallery",
+    "example/grid/grid",
+    "example/icons/icons",
+    "example/loadmore/loadmore",
+    "example/panel/panel",
+    "example/preview/preview",
+    "example/progress/progress",
+
+    "example/actionsheet/actionsheet",
+    "example/dialog/dialog",
+    "example/msg/msg",
+    "example/msg/msg_success",
+    "example/msg/msg_fail",
+    "example/picker/picker",
+    "example/toast/toast",
+
+    "example/navbar/navbar",
+    "example/tabbar/tabbar",
+
+    "example/searchbar/searchbar"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "iconPath": "example/images/position.png",
+        "selectedIconPath": "example/images/position.png",
+        "pagePath": "example/index",
+        "text": "职位"
+      },
+      {
+        "iconPath": "example/images/company.png",
+        "selectedIconPath": "example/images/company.png",
+        "pagePath": "example/navbar/navbar",
+        "text": "公司"
+      },
+      {
+        "iconPath": "example/images/message.png",
+        "selectedIconPath": "example/images/message.png",
+        "pagePath": "example/navbar/navbar",
+        "text": "消息"
+      },
+      {
+        "iconPath": "example/images/my.png",
+        "selectedIconPath": "example/images/my.png",
+        "pagePath": "example/msg/msg",
+        "text": "我的"
+      }
+    ]
+  },
+  
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "Boss 直聘",
+    "navigationBarBackgroundColor": "#53cac3",
+    "backgroundColor": "#53cac3"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
